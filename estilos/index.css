@@ -7,8 +7,8 @@
 }
 li, a{
 
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 14px;
     color: black;
     text-decoration: none;
 }
@@ -16,11 +16,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 15px 05%;
 }
 .logo{
     cursor: pointer;
-    width: 15%;
+    width: 20%;
 }
 .navegacion{
     list-style: none;
