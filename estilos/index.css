@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 05%;
+    padding: 15px 01%;
 }
 .logo{
     cursor: pointer;
