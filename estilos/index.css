@@ -68,6 +68,30 @@ header{
     text-align: center;
 }
 
+
+/*----Carrusel----*/
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+    animation: cambio 05s infinite alternate linear;
+  
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-align: center;
+  }
+
+
+
 /*----Pie de pagina----*/
 footer{
     background-color: #000000;
