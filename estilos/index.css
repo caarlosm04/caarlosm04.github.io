@@ -23,6 +23,33 @@ header{
     width: 20%;
 }
     
+/*----Menú desplegable del apartado de galerias----*/
+*ul, ol {
+    list-style:none;
+}
+        
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:190px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+
 
 .navegacion{
     list-style: none;
