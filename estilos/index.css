@@ -22,6 +22,8 @@ header{
     cursor: pointer;
     width: 20%;
 }
+    
+
 .navegacion{
     list-style: none;
 
@@ -36,6 +38,8 @@ header{
 .navegacion li a:hover{
     color: gray;
 }
+
+
 .marc{
     color: gray;
 }
@@ -73,9 +77,9 @@ header{
 .slider-container {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     overflow-x: scroll;
-    animation: cambio 05s infinite alternate linear;
+    animation: cambio 03s infinite alternate linear;
   
     /* Vamos a añadir esto 👇 */
     scroll-snap-type: x mandatory;
@@ -89,7 +93,6 @@ header{
     /* Vamos a añadir esto 👇 */
     scroll-snap-align: center;
   }
-
 
 
 /*----Pie de pagina----*/
@@ -158,4 +161,16 @@ footer{
     font-size: 14px;
     white-space: 2px;
     text-transform: capitalize;
+}
+
+
+
+@media screen and (max-width: 350px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+
 }

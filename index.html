@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./estilos/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./estilos/estilodesplegable.css">
     <title>Pablo Lapeña | Inicio</title>       
     <link rel="icon" href="./Multimedia/logo_.JPG" type="image/jpg">
 </head>
@@ -16,27 +18,42 @@
         <nav>
             <ul class="navegacion">
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./contenido/galerias.html">Galerias</a></li>
-                <li><a href="./contenido/entrevistas.html">Entrevistas</a></li>
-                <li><a href="./contenido/bibliografia.html">Biografía</a></li>
-                <li><a href="./contenido/arteasumedida.html">Arte a su medida</a></li>
-                <li><a href="./contenido/contacto.html">Contacto</a></li>
-            </ul>
+               
+
+                <div id="header">
+                    <ul class="nav">
+                            <li><a href="./estilos/estilodesplegable.css">Galerias</a>
+                                <ul>
+                                    <li><a href="./contenido/galerias.html">La Expresividad Corporal</a></li>
+                                    <li><a href="./contenido/galerias.html">La Emoción en el Rostro</a></li>
+                                    <li><a href="./contenido/galerias.html">La Figuración Sintetizada</a></li>
+                                    <li><a href="./contenido/galerias.html">La Versatilidad Temática</a></li>
+                                    <li><a href="./contenido/galerias.html">La Magia del Proceso Creativo</a></li>
+                                </ul>
+                            </li>
+                
+                        <li><a href="./contenido/entrevistas.html">Entrevistas</a></li>
+                        <li><a href="./contenido/bibliografia.html">Biografía</a></li>
+                        <li><a href="./contenido/arteasumedida.html">Arte a su medida</a></li>
+                        <li><a href="./contenido/contacto.html">Contacto</a></li>
+                    </ul>
         </nav>
     </header>
     <hr>
 
-    <div class="slider-container">  
-        <img class="slider-item" src="./Multimedia/ftportada.png"/>
-        <img class="slider-item" src="./Multimedia/portada2.jpg"/>
+    <div class="slider-container">
+        <img class="slider-item" src="./Multimedia/portada2.jpg"/>  
+        <img class="slider-item" src="./Multimedia/ftportada.png"/> 
     </div>
+    
 
 
-    <br>
-    <br>
     <br>
     <!-- El arte de la escultura a su medida -->
     <div class="medio" class="w3-center"><h1>El arte de la escultura a su medida</h1></div>
+
+    <!-- URL para poner un carousel bien https://codepen.io/adobewordpress/pen/JdXKWY-->
+
     <p class="centrado1">
     <img src="./Multimedia/Elartedelaesculturaasumedida.jpg" class="w3-center" alt="John" style="width:50%">
     </div><br>
